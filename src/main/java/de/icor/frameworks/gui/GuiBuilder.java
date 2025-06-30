@@ -151,10 +151,12 @@ public class GuiBuilder {
         for (int i = 0; i < inventory.getSize(); i++) {
             if (!itemBuffer.containsKey(i)) {
                 itemBuffer.put(i, item);
+                clickHandlers.put(i, event -> event.setCancelled(true));
             }
         }
         return this;
     }
+
 
     public GuiBuilder fillBorder(ItemStack item) {
         int size = inventory.getSize();
