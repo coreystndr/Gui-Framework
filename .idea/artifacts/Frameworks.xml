@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Frameworks">
+    <output-path>$USER_HOME$/AppData/Roaming/.feather/player-server/servers/9b7876bf-b3ea-4a5c-8f03-8a0328b56061/plugins</output-path>
+    <root id="archive" name="Frameworks.jar">
+      <element id="module-output" name="frameworks" />
+    </root>
+  </artifact>
+</component>
