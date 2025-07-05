@@ -305,4 +305,13 @@ public class GuiBuilder {
 
         return allSlots;
     }
+
+    public boolean isSlotFree(int slot) {
+        return !itemBuffer.containsKey(slot);
+    }
+
+    public boolean isSlotFree(Slots slot) {
+        return isSlotFree(slotConverter(slot));
+    }
+
 }
