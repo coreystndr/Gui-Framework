@@ -170,6 +170,7 @@ public class GuiBuilder {
 
             if (isBorder && !itemBuffer.containsKey(i)) {
                 itemBuffer.put(i, item);
+                clickHandlers.put(i, event -> event.setCancelled(true));
             }
         }
         return this;

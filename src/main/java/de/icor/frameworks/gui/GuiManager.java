@@ -19,6 +19,7 @@ public class GuiManager implements Listener {
     public void onInventoryClick(InventoryClickEvent event) {
         UUID player = event.getWhoClicked().getUniqueId();
         if (openGuis.containsKey(player)) {
+            event.setCancelled(true);
             openGuis.get(player).handleClick(event);
         }
     }
