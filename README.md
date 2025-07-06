@@ -34,7 +34,7 @@ public final class Main extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        guiManager = Frameworks.getGuiManager();
+        guiManager = Gui.getGuiManager();
         Bukkit.getPluginManager().registerEvents(guiManager, this);
     }
 }
@@ -53,7 +53,7 @@ public final class Main extends JavaPlugin {
 <dependency>
     <groupId>com.github.coreystndr</groupId>
     <artifactId>Frameworks</artifactId>
-    <version>1.0.7</version>
+    <version>1.0.0</version>
 </dependency>
 ```
 
@@ -69,6 +69,6 @@ dependencyResolutionManagement {
 ```
 ```bash
 dependencies {
-    implementation 'com.github.coreystndr:Frameworks:1.0.7'
+    implementation 'com.github.coreystndr:Frameworks:1.0.0'
 }
 ```
