@@ -27,3 +27,35 @@ GuiBuilder gui = new GuiBuilder("§aMein Menü", GuiType.SIX_ROWS, Main.getInsta
 
 gui.open(player);
 ```
+## Maven
+```bash
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+```
+```bash
+<dependency>
+    <groupId>com.github.coreystndr</groupId>
+    <artifactId>Frameworks</artifactId>
+    <version>1.0.7</version>
+</dependency>
+```
+
+## Gradle
+```bash
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+```bash
+dependencies {
+    implementation 'com.github.coreystndr:Frameworks:1.0.7'
+}
+```
