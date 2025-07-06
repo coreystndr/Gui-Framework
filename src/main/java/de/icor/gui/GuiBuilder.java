@@ -1,6 +1,6 @@
 package de.icor.gui;
 
-import de.icor.frameworks.Frameworks;
+import de.icor.Gui;
 import lombok.Getter;
 import org.bukkit.Bukkit;
 import org.bukkit.Sound;
@@ -194,7 +194,7 @@ public class GuiBuilder {
 
         player.openInventory(inventory);
 
-        Frameworks.getGuiManager().registerGui(player.getUniqueId(), this);
+        Gui.getGuiManager().registerGui(player.getUniqueId(), this);
 
         if (animationType != null) {
             if (sound != null) {
