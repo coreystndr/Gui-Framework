@@ -1,4 +1,4 @@
-package de.icor.frameworks.gui;
+package de.icor.gui;
 
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;

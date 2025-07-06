@@ -1,4 +1,4 @@
-package de.icor.frameworks.gui;
+package de.icor.gui;
 
 public enum GuiType {
     ONE_ROW,

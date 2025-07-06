@@ -1,4 +1,4 @@
-package de.icor.frameworks.gui;
+package de.icor.gui;
 
 import de.icor.frameworks.Frameworks;
 import lombok.Getter;

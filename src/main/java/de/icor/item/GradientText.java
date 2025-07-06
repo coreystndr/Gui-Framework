@@ -1,4 +1,4 @@
-package de.icor.frameworks.item;
+package de.icor.item;
 
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitRunnable;

@@ -1,4 +1,4 @@
-package de.icor.frameworks.gui;
+package de.icor.gui;
 
 public enum AnimationType {
     LEFT_TO_RIGHT,

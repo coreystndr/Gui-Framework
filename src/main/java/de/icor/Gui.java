@@ -1,10 +1,10 @@
-package de.icor.frameworks;
+package de.icor;
 
-import de.icor.frameworks.gui.*;
+import de.icor.gui.GuiManager;
 import lombok.Getter;
 import lombok.Setter;
 
-public final class Frameworks {
+public final class Gui {
     @Setter
     @Getter
     private static GuiManager guiManager = new GuiManager();
