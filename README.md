@@ -27,6 +27,19 @@ GuiBuilder gui = new GuiBuilder("§aMein Menü", GuiType.SIX_ROWS, Main.getInsta
 
 gui.open(player);
 ```
+## Registrierung
+```java
+public final class Main extends JavaPlugin {
+    @Getter private GuiManager guiManager;
+
+    @Override
+    public void onEnable() {
+        guiManager = Frameworks.getGuiManager();
+        Bukkit.getPluginManager().registerEvents(guiManager, this);
+    }
+}
+```
+
 ## Maven
 ```bash
 <repositories>
