@@ -52,7 +52,7 @@ public final class Main extends JavaPlugin {
 ```bash
 <dependency>
     <groupId>com.github.coreystndr</groupId>
-    <artifactId>Frameworks</artifactId>
+    <artifactId>Gui-Framework</artifactId>
     <version>VERSION</version>
 </dependency>
 ```
@@ -69,6 +69,6 @@ dependencyResolutionManagement {
 ```
 ```bash
 dependencies {
-    implementation 'com.github.coreystndr:Frameworks:VERSION'
+    implementation 'com.github.coreystndr:Gui-Framework:VERSION'
 }
 ```
