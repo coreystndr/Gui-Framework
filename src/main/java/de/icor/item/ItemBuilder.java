@@ -73,6 +73,11 @@ public class ItemBuilder {
         throw new IllegalStateException("setLeatherColor() kann nur für Leder-Rüstungen verwendet werden!");
     }
 
+    public ItemBuilder setCustomModelData(int data) {
+        meta.setCustomModelData(data);
+        return this;
+    }
+
     public ItemStack build() {
         item.setItemMeta(meta);
         return item;
